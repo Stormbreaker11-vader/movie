@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Movie, TVShow, MediaType } from '../types/tmdb';
 
-const API_KEY = '51d91894475b90ea5449bb71c1cd0a65';
+const API_KEY = 'your api key';
 const BASE_URL = 'https://api.themoviedb.org/3';
 
 const tmdbApi = axios.create({
